@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login OTP</title>
+</head>
+<body style="margin:0; padding:0; background-color:#f3f4f6; font-family:Arial,Helvetica,sans-serif;">
+
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0"
+       style="background-color:#f3f4f6; padding:35px 12px;">
+    <tr>
+        <td align="center">
+
+            <table role="presentation" width="100%" cellspacing="0" cellpadding="0"
+                   style="max-width:500px; background-color:#ffffff; border-radius:12px; overflow:hidden;">
+
+                <tr>
+                    <td style="background-color:#1d4ed8; padding:28px 20px; text-align:center;">
+                        <h1 style="margin:0; color:#ffffff; font-size:24px;">
+                            Login Verification
+                        </h1>
+                        <p style="margin:8px 0 0; color:#dbeafe; font-size:14px;">
+                            Secure access to your account
+                        </p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="padding:32px 28px; color:#374151; font-size:15px; line-height:1.7;">
+
+                        <p style="margin-top:0;">Hello,</p>
+
+                        <p>
+                            We received a request to sign in to your account.
+                            Use the verification code below to complete your login.
+                        </p>
+
+                        <table role="presentation" width="100%" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td align="center"
+                                    style="padding:22px 10px; background-color:#eff6ff; border:1px dashed #93c5fd; border-radius:8px;">
+                                    <p style="margin:0 0 8px; color:#6b7280; font-size:12px; text-transform:uppercase; letter-spacing:2px;">
+                                        Your verification code
+                                    </p>
+                                    <p style="margin:0; color:#1d4ed8; font-size:34px; font-weight:bold; letter-spacing:8px;">
+                                        {{ otp }}
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <p style="margin:24px 0 8px; text-align:center; color:#b45309; font-weight:bold;">
+                            This code expires in 3 minutes.
+                        </p>
+
+                        <hr style="border:0; border-top:1px solid #e5e7eb; margin:25px 0;">
+
+                        <p style="font-size:13px; color:#4b5563;">
+                            <strong>Security reminder:</strong> Never share this
+                            verification code with anyone. Our team will never ask
+                            you to disclose it.
+                        </p>
+
+                        <p style="font-size:13px; color:#4b5563;">
+                            If you did not attempt to log in, you can ignore this
+                            email. If you suspect unauthorized access, take steps
+                            to secure your account.
+                        </p>
+
+                        <p style="margin-bottom:0;">
+                            Best regards,<br>
+                            <strong>The Security Team</strong>
+                        </p>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="padding:18px; background-color:#f9fafb; text-align:center; color:#9ca3af; font-size:11px;">
+                        This is an automated security email. Please do not reply.
+                    </td>
+                </tr>
+
+            </table>
+
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
