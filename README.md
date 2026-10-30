@@ -119,6 +119,4 @@ No database model changes or migrations were required.
 
 The work completed in this update focuses on Poll creation and retrieval, filtering, searching, ordering and pagination.
 
-The voting workflow and poll ownership/visibility restrictions are separate tasks and are not included in this update.
-
 No files inside the `auth/` application were modified.
